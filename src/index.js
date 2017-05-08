@@ -1,7 +1,8 @@
-// External dependencies
 import React from 'react';
 import ReactDOM from 'react-dom';
-// Local dependencies
+
+import './styles/styles.css';
+
 import Root from './components/Root';
 import configureStore from './configureStore';
 

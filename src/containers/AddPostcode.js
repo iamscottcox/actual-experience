@@ -14,7 +14,7 @@ let AddPostcode = ({dispatch}) => {
 				postcode.value = '';
 			}
 		}}>
-			<input type="text" id="addPostcode__name" ref={node => postcode = node}/>
+			<input type="text" id="addPostcode__name" placeholder="Enter a valid postcode" ref={node => postcode = node}/>
 			<button id="addPostcode__submitButton" type="submit">Submit</button>
 		</form>
 	)
